@@ -1,12 +1,10 @@
 package domain.highway;
 
-import application.Highway;
-import org.assertj.core.api.Assertions;
+import domain.Highway;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.Assert.*;
 
 public class HighwayTest {
 
@@ -23,4 +21,13 @@ public class HighwayTest {
 
         assertThat(highway).isEqualToComparingFieldByField(new Highway("E19",30));
     }
+
+    @Test
+    public void highwayWithOtherName_isNotEqualToOtherHighway()throws Exception{
+
+        assertThat(highway).isNotEqualTo(new Highway("E17",30));
+    }
+
+
+
 }
