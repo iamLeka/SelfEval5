@@ -1,6 +1,6 @@
-package application;
+package be.cegeka.selfeval.application;
 
-import domain.HighwayService;
+import be.cegeka.selfeval.domain.Highway.HighwayService;
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.InjectMocks;

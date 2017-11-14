@@ -1,6 +1,4 @@
-package domain;
-
-import org.omg.PortableServer.LIFESPAN_POLICY_ID;
+package be.cegeka.selfeval.domain.Highway;
 
 import javax.inject.Named;
 import javax.persistence.EntityManager;

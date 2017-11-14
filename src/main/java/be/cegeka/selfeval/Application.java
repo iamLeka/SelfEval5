@@ -1,4 +1,4 @@
-package be.cegeka.SelfEval5;
+package be.cegeka.selfeval;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

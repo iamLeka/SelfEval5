@@ -1,4 +1,4 @@
-package domain;
+package be.cegeka.selfeval.domain.Highway;
 
 import javax.inject.Inject;
 import javax.inject.Named;

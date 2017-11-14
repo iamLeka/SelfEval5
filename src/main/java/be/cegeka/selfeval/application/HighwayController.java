@@ -1,7 +1,7 @@
-package application;
+package be.cegeka.selfeval.application;
 
-import domain.Highway;
-import domain.HighwayService;
+import be.cegeka.selfeval.domain.Highway.Highway;
+import be.cegeka.selfeval.domain.Highway.HighwayService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

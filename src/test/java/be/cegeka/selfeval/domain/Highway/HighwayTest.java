@@ -1,6 +1,5 @@
-package domain.highway;
+package be.cegeka.selfeval.domain.Highway;
 
-import domain.Highway;
 import org.junit.Before;
 import org.junit.Test;
 

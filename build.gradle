@@ -50,7 +50,7 @@ jacocoTestCoverageVerification {
     violationRules {
         rule {
             element = 'CLASS'
-            includes = ['be.cegeka.SelfEval5.application.*','be.cegeka.SelfEval5.domain.*']
+            includes = ['be.cegeka.SelfEval5.be.cegeka.selfeval.application.*','be.cegeka.SelfEval5.be.cegeka.selfeval.domain.*']
             limit {
                 counter = 'BRANCH'
                 minimum = 0.7
@@ -58,7 +58,7 @@ jacocoTestCoverageVerification {
         }
         rule {
             element = 'PACKAGE'
-            includes = ['be.cegeka.SelfEval5.application.*','be.cegeka.SelfEval5.domain.*']
+            includes = ['be.cegeka.SelfEval5.be.cegeka.selfeval.application.*','be.cegeka.SelfEval5.be.cegeka.selfeval.domain.*']
             limit {
                 counter = 'COMPLEXITY'
                 minimum = 0.5

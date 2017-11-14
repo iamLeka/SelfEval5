@@ -1,7 +1,5 @@
-package domain.highway;
+package be.cegeka.selfeval.domain.Highway;
 
-import domain.HighwayRepository;
-import domain.HighwayService;
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -9,9 +7,6 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import static org.mockito.Mockito.verify;
-
-
-import static org.junit.Assert.*;
 
 public class HighwayServiceTest {
     @Rule
